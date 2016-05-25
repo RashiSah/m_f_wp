@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#outerbox {
+  height: 500px;
+  width: 1300px;
+  background-color: grey;
+}
+#cube {
+  height: 200px;
+  width: 600px;
+  line-height: 100px;
+  background-color: lightblue;
+  color: orange;
+  text-align: center;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+  border: 4px solid blue
+}
+#outerbox:hover {
+   background-color: pink;
+  transition: background-color 2s ease-in-out;
+}
+#cube:hover {
+  width: 300px;
+  height:700px
+ border-radius: 100%;
+ color: white;
+}
+img {
+  margin-left:25px;
+  margin-bottom:20px;
+   border-radius: 50px;
+}
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+
+}
+ol:hover {
+   padding 10px;
+   background: orange;
+}
+ol li:hover {
+   color: red;
+}
+#baby
+{ height: 1550px;
+  width: 1300px;
+  background-color: purple;
+}
+#baby:hover {
+  height: 1550px;
+  width: 1300px;
+  background-color: brown;
+}
+#i1 {
+  height: 250px;
+  width: 250px;
+  margin-left: 60px;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+  }
+  50% {
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+#i2{
+  height: 250px;
+  width: 250px;
+  margin-left: 60px;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+  }
+  50% {
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+#i3 {
+  height: 250px;
+  width: 250px;
+  margin-left: 60px;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+  }
+  50% {
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+.element {
+  height: 200px;
+  animation: 
+    pulse 7s ease infinite alternate, 
+    nudge 7s linear infinite alternate;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    height: 200px }
+  50% {
+    height:200px;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(400px, 0);
+  }
+  
+  80% {
+    transform: translate(-400px, 0);
+  }
+}
+#t1 {
+  padding: 20px;
+  color: white;
+}
+#t1:hover {
+  color: yellow;
+ }
+#t2 {
+  padding: 20px;
+  color: yellow;
+}
+#t2:hover {
+  color: white;
+ }
+</style>
+</head>
+<body>
+<div id="outerbox">
+</br>
+<center>
+<div id="cube"><h1>WELCOME!</h1></br><h3>to the Anime world...</h3></div>
+</center>
+</br>
+</br>
+</br>
+<div class="element"><img src="ras.jpg" height="200px"/>
+</div>
+<center>
+<h1 style="color:red;">Name of top 3 Anime series</h1>
+</center>
+<ol>
+ <li>Fullmetal Alchemist: Brotherhood</li>
+ <li>Code Geass: Lelouch of the Rebellion R2</li>
+ <li>Death Note</li>
+</ol>
+</br>
+</br>
+<div id="baby">
+</br>
+<div id="i1"><img src="f.jpg" height="300px"/></div>
+</br>
+<div id="t1"><h3>Fullmetal Alchemist: Brotherhood (Japanese: 鋼の錬金術師 Hepburn: Hagane no Renkinjutsushi?) is an anime series adapted from the Fullmetal Alchemist manga by Hiromu Arakawa. Produced by Bones, the series is directed by Yasuhiro Irie and written by Hiroshi Ōnogi. Fullmetal Alchemist: Brotherhood is the second anime television series based on Fullmetal Alchemist, the first being 2003's Fullmetal Alchemist, as a 1:1 adaptation directly following the events of the manga. It was first announced in the manga series' 20th tankōbon volume.</h3></div>
+</br>
+</br>
+</br>
+<div id="i2"><img src="p.jpg" height="300px"/></div>
+</br>
+<div id="t2"><h3>Code Geass: Lelouch of the Rebellion R2, premiered on MBS and TBS at 17:00 JST on April 6, 2008, is the second part of the anime series, Code Geass. Prior to the series' television broadcast, three private preview screenings of episode 1 were held on March 15 and March 16 in Osaka and Tokyo respectively, which was attended by the series' Japanese voice actors as well as a pool of 3800 randomly selected applicants. On April 15, 2008, at 17:00 JST, the last 6 minutes of the then unaired third episode was accidentally posted onto the Internet due to an error by Bandai Channel</h3>
+</br>
+</br>
+</br>
+<div id="i3"><img src="k.jpg" height="300px"/></div>
+</br>
+<div id="t1"><h3>Death Note (Japanese: デスノート Hepburn: Desu Nōto?) is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata. The story follows Light Yagami, a high school student who discovers a supernatural notebook from a Shinigami named Ryuk that grants its user the ability to kill anyone whose name and face he knows. The series centers around Light's subsequent attempts to create and rule a world "cleansed of evil" as a "God" using this found notebook, and the efforts of a detective known as L to stop him from killing criminals.</h3>
+</div>
+<center>
+<h2 style="color:green;">Auttomattic...</h2>
+</center>
+</body>
+</html>
+
+
